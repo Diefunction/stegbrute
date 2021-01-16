@@ -4,29 +4,13 @@ the purpose of this project is to "brute force" stego passphrase , for now only 
 
 ## Getting Started
 
+<!-- @diefunction if you accept my pull req change this link --> 
 ```
-git clone http://github.com/diefunction/stegbrute.git
-```
-```
-python -m pip install -r requirements.txt
-```
-or
-```
-python3 -m pip install -r requirements.txt
+git clone http://github.com/jopraveen/stegbrute
 ```
 
-### Examples
+### How to use this
 
 ```
-python stegbrute.py --image steg.jpg --output output.txt --wordlist passwords.txt
+python3 stegbrute.py --i yourfile --o output.txt -w wordlist.txt 
 ```
-or
-```
-python3 stegbrute.py --image steg.jpg --output output.txt --wordlist passwords.txt
-```
-
-### About
-
-HTB: https://www.hackthebox.eu/home/users/profile/47396 <br />
-Twitter: @diefunction <br />
-Discord: Diefunction#1337
